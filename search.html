@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Search Box</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background: rgba(40, 60, 117);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 50%;
+            min-width: 250px;
+            max-width: 300px;
+            height: 180px;
+            text-align: center;
+        }
+
+        form {
+            background: rgb(183, 75, 75);
+            border-radius: 25px;
+            position: relative;
+        }
+
+        h1 {
+            color: white;
+            padding: 15px;
+            text-shadow: 2px 2px 2px black;
+        }
+
+        input {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 580px;
+            height: 50px;
+            display: block;
+            border-radius: 25px;
+            font-size: 20px;
+            padding: 8px 40px 8px 20px;
+            border: none;
+            box-shadow: 0 5px 8px 3px black;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        button {
+            display: flex;
+            position: absolute;
+            top: 0;
+            right: -275px;
+            width: 50px;
+            height: 100%;
+            border-radius: 50%;
+            cursor: pointer;
+            border: none;
+            background: none;
+            font-size: 18px;
+            padding-left: 6px;
+            font-size: 30px;
+            align-items: center;
+        }
+
+        button i {
+            color: rgb(93, 94, 95);
+            
+        }
+
+        button:hover i {
+            color: rgb(162, 163, 163);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Looking for:</h1>
+        <form>
+            <input type="text" name="search" placeholder="Search...">
+            <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+    </div>
+</body>
+
+</html>
