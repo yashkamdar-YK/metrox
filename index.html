@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project2nd</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/0bf7d3c83d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <header class="nav_section">
+        <div class="navbar">
+            <div class="navdiv">
+                <div class="logo">
+                    <img src="logo.png" alt="metrologo" srcset="">
+                </div>
+                <div class="navitem">
+                    <ul>
+                        <li>
+                            <div class="service">
+                                <a href="#">
+                                    <div class="v1_logo">
+                                        <img src="icon_header_service_circle.png" width="20" height="20" alt>
+                                    </div>
+                                    <div class="v1_text">
+                                        <p class="fst">service Information</p>
+                                        <p class="snd">Normal service</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="english">
+                                <div class="l_icon">
+                                    <img src="icon_header_english.png " width="48" height="48" alt="">
+                                </div>
+                                <div class="language">
+                                    <p>English</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="search">
+                                <div class="s_icon">
+                                    <img src="icon_header_search.png" width="46" height="46" alt="">
+                                </div>
+                                <div class="search_this">
+                                    <p>Search</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu">
+                                <div class="m_icon">
+                                    <img src="icon_header_menu.png" width="52" height="38" alt="">
+                                </div>
+                                <div class="menu_this">
+                                    <p>Menu</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Main Section -->
+    <article>
+        <!-- Page 1 -->
+        <div class="main">
+            <h1>Welcome To Indore Metro</h1>
+            <div class="datebox">
+                <div id="dateContainer">
+                    <p id="date"></p>
+                </div>
+
+                <div id="timeContainer">
+                    <p id="time"></p>
+                </div>
+            </div>
+            <div id="weather-container">
+                <div class="weather_icon">
+                    <img src="sunny.png" alt="" srcset="">
+                </div>
+                <div class="weather_text">
+                    <div id="temperature"></div>
+                    <div class="weather_city">Indore</div>
+                </div>
+            </div>
+            <div class="search_area">
+                <input type="text" name="search" id="search_box" placeholder="E.g. Palasia To Airport">
+                <input type="submit" value class="search_submit">
+            </div>
+            <div class="sceen">
+                <div class="slider">
+                    <div class="info">
+                        <a href="#">
+                            <div class="icon_info">
+                                <img src="transfer.png" alt="">
+                            </div>
+                            <p>
+                                Fare/Transfer<br>Search
+                            </p>
+                        </a>
+                    </div>
+                    <div class="info">
+                        <a href="#">
+                            <div class="icon_info">
+                                <img src="map.png" alt="">
+                            </div>
+                            <p>
+                                Subway Map
+                            </p>
+                        </a>
+                    </div>
+                    <div class="info">
+                        <a href="#">
+                            <div class="icon_info">
+                                <img src="ticket.png" alt="">
+                            </div>
+                            <p>
+                                Indore Subway<br>Ticket
+                            </p>
+                        </a>
+                    </div>
+                    <div class="info">
+                        <a href="#">
+                            <div class="icon_info">
+                                <img src="airport.png" alt="">
+                            </div>
+                            <p>
+                                Access from the<br>Airport
+                            </p>
+                        </a>
+                    </div>
+                    <div class="info">
+                        <a href="#">
+                            <div class="icon_info">
+                                <img src="card.png" alt="">
+                            </div>
+                            <p>
+                                Get Metro Card
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner Section -->
+        <div class="banner">
+            <div class="poster">
+                <img src="banner.jpg" alt="" srcset="">
+            </div>
+        </div>
+
+        <!-- Page 2 -->
+        <section class="pickup">
+            <div class="wrapper">
+                <div class="block">
+                    <a href="#">
+                        <div class="pic">
+                            <img src="icon_pickup_01.png" width="190" height="190" alt="">
+                        </div>
+                        <p>
+                            Tips for Using Indore Metro
+                        </p>
+                    </a>
+                </div>
+
+                <div class="block">
+                    <a href="#">
+                        <div class="pic">
+                            <img src="subway.png" width="189" height="189" alt="">
+                        </div>
+                        <p>Tickets</p>
+                    </a>
+                </div>
+
+                <div class="block">
+                    <a href="#">
+                        <div class="pic">
+                            <img src="mapindore.png" width="190" height="190" alt="">
+                        </div>
+                        <p>Subway Map</p>
+                    </a>
+                </div>
+
+                <div class="block">
+                    <a href="#">
+                        <div class="pic">
+                            <img src="route.png" width="190" height="190" alt="">
+                        </div>
+                        <p>
+                            Route/Station
+                            <br class="showSP">
+                            Information
+                        </p>
+                    </a>
+                </div>
+
+                <div class="block">
+                    <a href="#">
+                        <div class="pic">
+                            <img src="tower.png" width="190" height="190" alt="">
+                        </div>
+                        <p>
+                            See Indore with
+                            <br class="showSP">
+                            Indore Metro
+                        </p>
+                    </a>
+                </div>
+
+                <div class="block">
+                    <ul class="flexDO">
+                        <li class="flexDO">
+                            <a href="#" target="_blank">
+                                Fare/Transfer
+                                <br class="showSP">
+                                Search
+                            </a>
+                        </li>
+
+                        <li class="flexDO">
+                            <a href="#" target="_blank">
+                                Handy Safty
+                                <br class="showSP">
+                                Guide
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 3 -->
+        <div class="page3">
+            <div class="inr">
+                <div class="leftCol">
+                    <section class="topics">
+                        <h2>Topic</h2>
+                        <div class="linkall">
+                            <a href="#">View All</a>
+                        </div>
+
+                        <dl class="flexDO">
+                            <dt>August 2 2024</dt>
+                            <dd>
+                                <a href="#">We will temporarily suspend the sale of Blank PASMO Cards and Personalized
+                                    PASMO
+                                    Cards.</a>
+                            </dd>
+                        </dl>
+
+                        <dl class="flexDO">
+                            <dt>June 19, 2024</dt>
+                            <dd>
+                                <a href="#">About PASMO PASPORT</a>
+                            </dd>
+                        </dl>
+
+                        <dl class="flexDO">
+                            <dt>April 21,2020</dt>
+                            <dd>
+                                <a href="#">TOKYO SUPPORTERS PASS The release of this special IC pass for international
+                                    visitors to Japan has been postponed.</a>
+                            </dd>
+                        </dl>
+
+
+
+                        <div class="btnmore">
+                            <a href="#">View More</a>
+                        </div>
+
+                    </section>
+                </div>
+                <div class="rightCOl">
+                    <div class="moviethumb">
+                        <a href="#"></a>
+                        <img src="3147px-Indore_Rajwada01.jpg" width="710" height="445" alt="INDORE METRO">
+                    </div>
+                    <div class="modelBox">
+                        <div id="movie">
+                            <div class="modalcontents"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footerWrapper">
+            <div class="rightCol">
+                <div class="footerInquire">
+                    <p class="footer_title">Inquires</p>
+                    <div class="wrapper">
+                        <div class="footerfaq">
+                            <a href="#">FAQ
+
+                            </a>
+                        </div>
+                        <div class="footerlost">
+                            <a href="#">Lost & Found</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerfollow">
+                    <p class="footer_title">Follow Us</p>
+                    <ul>
+                        <li class="iconblank">
+                            <a href="#" target="_blank"> Indore Trend Trip</a>
+                        </li>
+                        <li class="iconblank">
+                            <a href="#" target="_blank">Indore Trend Trip(india)</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <nav class="footerNav">
+            <ul>
+                <li class="iconblank">
+                    <a href="#">About this site</a>
+                </li>
+                <li class="iconblank">
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#">site Map</a>
+                </li>
+                <li class="iconblank">
+                    <a href="#">Indore Metro WEB</a>
+                </li>
+            </ul>
+            <p>Copyright © Indore Metro co., Ltd. All rights Reserved.</p>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
